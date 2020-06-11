@@ -34,12 +34,13 @@ namespace EmployeeManager.Mvc.Models
 
         [Column("BirthDate")]
         [Display(Name = "Birth Date")]
-        [Required(ErrorMessage = "Birth Date is required")]
+        // [Required(ErrorMessage = "Birth Date is required")]
         public DateTime BirthDate { get; set; }
         [Column("HireDate")]
         [Display(Name = "Hire Date")]
-        [Required(ErrorMessage = "Hire Date is required")]
+        // [Required(ErrorMessage = "Hire Date is required")]
         public DateTime HireDate { get; set; }
+
         [Column("Country")]
         [Display(Name = "Country")]
         [Required(ErrorMessage = "Country is required")]
